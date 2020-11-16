@@ -20,11 +20,12 @@ clean:
 
 # Cible qui explique comment executer
 exec:
-	java -classpath $(INSTALLDIR) $(MAINCLASS) formulas/formula.txt
+	java -classpath $(INSTALLDIR) $(MAINCLASS) resources/minidico.txt "mangre"
 
 # Demarre automatiquement une demonstration de votre programme
 # Il faut que cette demo soit convaincante
 demo:
+	java -classpath $(INSTALLDIR) $(MAINCLASS) resources/idico.txt resources/fautes.txt 
 
 # Executer automatiquent les test
 # On s'attend (d'habitude) que pour claque classe MaClasse il y ait une
@@ -32,7 +33,7 @@ demo:
 # sur au moins une entrée
 # A vous de completer
 test:
-
+	
 
 # Cible pour créer son rendu de tp 
 zip:

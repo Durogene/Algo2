@@ -9,7 +9,7 @@ MAINDIR=$(dir $(subst .,/,$(MAINCLASS)))
 
 compile: $(subst .,/,$(MAINCLASS)).class
 
-%.class: 
+%.class: %.java
 	javac -g  $*.java
 
 clean:
@@ -20,3 +20,7 @@ install:
 
 cleanInstall:
 	rm  $(INSTALLDIR)/$(MAINDIR)*.class
+
+test: OptionsTest.class
+	java OptionsTest
+
