@@ -6,8 +6,6 @@ public class Options {
     public static String pathToFile = "resources/fautes.txt";
 
     public static void parseCommandLine(String[] args) {
-        pathToDictionary= "resources/dico.txt";
-        pathToFile = "resources/fautes.txt";
 
         if (args.length == 0) {
             return;
