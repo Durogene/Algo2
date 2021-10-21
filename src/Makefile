@@ -25,6 +25,7 @@ install:
 cleanInstall:
 	rm  ../$(INSTALLDIR)/$(MAINDIR)*.class
 
-test: OptionsTest.class
+test:
+	$(JAVAC) -g OptionsTest.java
 	java OptionsTest
 

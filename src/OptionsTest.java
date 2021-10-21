@@ -21,6 +21,7 @@ public class OptionsTest {
             System.out.println(format("No arguments : %d", commandLine.length));
             Options.parseCommandLine(commandLine);
             Options.print();
+            Options.reset();
             System.out.println("Fin du test\n");
         }
     }

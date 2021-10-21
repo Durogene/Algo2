@@ -1,9 +1,38 @@
 public class Main {
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         Options.parseCommandLine(args);
 
-        // write your code here
-        System.out.println("TP2");
+        Timer timer_dico = new Timer("Dictionnaire");
+        Dictionary dico = new Dictionary(Options.pathToFile);
+        timer_dico.print_time_past();
+
+        Timer timer_speller = new Timer("Spelchecker");
+
+        SpellChecker spellchecker = new SpellChecker(Options.pathToFile, Options.word, dico);
+        for (String word : spellchecker.getWords()) {
+            spellchecker.spell(word);
+        }
+        timer_speller.print_time_past();
+    }
+
+    private static class Timer {
+        long startTime = 0;
+        String name = "";
+
+        public Timer(String name) {
+            long startTime = System.currentTimeMillis();
+            this.name = name;
+        }
+
+        public long time_past() {
+            return System.currentTimeMillis() - startTime;
+        }
+
+        public void print_time_past() {
+            String message = String.format("Timer %s : %d ms past", name, time_past());
+            System.out.println(message);
+        }
+
     }
 }

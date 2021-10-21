@@ -2,8 +2,9 @@ import java.util.Arrays;
 
 public class Options {
 
-    public static String pathToDictionary= "resources/dico.txt";
+    public static String pathToDictionary = "resources/dico.txt";
     public static String pathToFile = "resources/fautes.txt";
+    public static String word = "ababab";
 
     public static void parseCommandLine(String[] args) {
 
@@ -30,22 +31,27 @@ public class Options {
 
         }
 
-        try {
+        if (args.length > index) {
             pathToFile = args[index];
-        } catch (Exception e) {
-            System.out.println("I need the name of the file containing the dictionary");
-            System.exit(1);
+            word = args[index];
         }
-
     }
 
     private static void usage() {
-        System.out.println("Usage : spellcheck [-d dictionary] [file]");
+        System.out.println("Usage : spellcheck [-d dictionary] [file|word]");
     }
 
-    public static void print(){
+
+    public static void print() {
         System.out.println(String.format("Dictionnaire : %s", Options.pathToDictionary));
-        System.out.println(String.format("Fichier : %s",Options.pathToFile));
+        System.out.println(String.format("Fichier : %s", Options.pathToFile));
+        System.out.println(String.format("Mot : %s", Options.word));
+    }
+
+    public static void reset() {
+        pathToDictionary = "resources/dico.txt";
+        pathToFile = "resources/fautes.txt";
+        word = "ababab";
     }
 
 }

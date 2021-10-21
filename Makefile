@@ -20,7 +20,7 @@ JAVA=$(JDKBIN)/java
 all: compile jar exec
 
 # Cible (target, en anglais)  pour compiler
-compile:
+compile: clean
 	cd src ; make JAVAC="$(JAVAC)" INSTALLDIR="$(INSTALLDIR)" MAINCLASS="$(MAINCLASS)" compile
 
 install:
@@ -33,8 +33,8 @@ jar: compile
 	mv $(INSTALLDIR)/$(JARFILE).jar ./
 
 clean:
-	cd src ; make clean ; make INSTALLDIR="$(INSTALLDIR)" cleanInstall
-	rm *.zip *.jar manifest.*
+	- cd src ; make -k clean ; make INSTALLDIR="$(INSTALLDIR)" cleanInstall
+	- rm *.zip *.jar manifest.*
 
 
 # Cible pour executer 
@@ -57,7 +57,6 @@ demo: $(JARFILE).jar
 # sur au moins une entrée
 # A vous de completer
 tests:
-
 
 # Cible pour créer son rendu de tp 
 zip:

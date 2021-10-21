@@ -20,7 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="901c8092-82a9-4262-a72a-5a440827dc4f" name="Default Changelist" comment="Commited project">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SpellChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Options.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OptionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OptionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +50,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="1ie1DIFGcepxkNDR6xHobv0IlFs" />
   <component name="ProjectViewState">
@@ -50,11 +59,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.OptionsTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -126,63 +141,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commited project" />
     <option name="LAST_COMMIT_MESSAGE" value="Commited project" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602254179545">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1602254179545" />
-    <state x="287" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605556092520">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="287" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.777@0.23.1280.777" timestamp="1605556092520" />
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1605606298149">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1605606298149" />
-    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1605606298148">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1605606298148" />
-    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1605606298148">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1605606298148" />
-    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1605606298149">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1605606298149" />
-    <state width="1218" height="230" key="GridCell.Tab.1.bottom" timestamp="1602256305635">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1218" height="230" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1602256305635" />
-    <state width="1218" height="230" key="GridCell.Tab.1.center" timestamp="1602256305634">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1218" height="230" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1602256305634" />
-    <state width="1218" height="230" key="GridCell.Tab.1.left" timestamp="1602256305634">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1218" height="230" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1602256305634" />
-    <state width="1218" height="230" key="GridCell.Tab.1.right" timestamp="1602256305635">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1218" height="230" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1602256305635" />
-    <state x="128" y="23" key="SettingsEditor" timestamp="1602255885997">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="128" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1602255885997" />
-    <state x="250" y="131" key="Vcs.Push.Dialog.v2" timestamp="1605566686656">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="250" y="131" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1605566686656" />
-    <state x="438" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602256112937">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="438" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1602256112937" />
-    <state x="8" y="34" key="new project wizard" timestamp="1602253256506">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="8" y="34" key="new project wizard/0.23.1280.777@0.23.1280.777" timestamp="1602253256506" />
   </component>
 </project>
