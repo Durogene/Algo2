@@ -21,7 +21,7 @@ public class Main {
         String name = "";
 
         public Timer(String name) {
-            long startTime = System.currentTimeMillis();
+            startTime = System.currentTimeMillis();
             this.name = name;
         }
 
@@ -30,7 +30,7 @@ public class Main {
         }
 
         public void print_time_past() {
-            String message = String.format("Timer %s : %d ms past", name, time_past());
+            String message = String.format("Timer %s : %f sec. past", name, ((double) time_past()) / 1000);
             System.out.println(message);
         }
 
