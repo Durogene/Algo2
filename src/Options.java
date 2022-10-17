@@ -38,7 +38,7 @@ public class Options {
     }
 
     private static void usage() {
-        System.out.println("Usage : spellcheck [-d dictionary] [file|word]");
+        System.out.println("Usage : java -jar Spell.jar [-d dictionary] [file|word]");
     }
 
 
