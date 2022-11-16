@@ -3,11 +3,11 @@ public class Main {
     public static void main(String[] args) {
         Options.parseCommandLine(args);
 
-        Timer timer_dico = new Timer("Dictionnaire");
-        Dictionary dico = new Dictionary(Options.pathToFile);
+        Timer timer_dico = new Timer("Construction du dictionnaire");
+        Dictionary dico = new Dictionary(Options.pathToDictionary);
         timer_dico.print_time_past();
 
-        Timer timer_speller = new Timer("Spelchecker");
+        Timer timer_speller = new Timer("Vérification de l'ortographe");
 
         SpellChecker spellchecker = new SpellChecker(Options.pathToFile, Options.word, dico);
         for (String word : spellchecker.getWords()) {
